@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img width="200px"src="img/me.png"></td>
+            <td><h1>Hilmi Abdul Aziz</h1></td>
+            
+        </tr>
+    </table>
+    <p><em>asdf <strong>asd</strong></em></p>
+    <hr>
+    <h3>Education</h3>
+    <table>
+        <tr>
+            <td>2001 - 2007</td>
+            <td>SDN 1 Bakom</td>
+            <td>Kuningan</td>
+        </tr>
+        <tr>
+            <td>2007 - 2010</td>
+            <td>SMP Binaul Ummah</td>
+            <td>Kuningan</td>
+        </tr>
+        <tr>
+            <td>2010 - 2012</td>
+            <td>SMAN 2 Kuningan</td>
+            <td>Kuningan</td>
+        </tr>
+        <tr>
+            <td>2012 - 2017</td>
+            <td>Universitas Komputer Indonesia <br>
+                Teknik Informatika
+            </td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <hr>
+    <h3>Hobbies</h3>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <hr>
+    <h3>Other Pages</h3>
+    <a href="contact.html">Contact</a>
+</body>
+</html>
