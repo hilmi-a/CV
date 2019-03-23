@@ -1,40 +1,44 @@
-body{
+body {
     margin: 0;
     text-align: center;
     font-family: verdana, sans-serif;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 
-.top-container{
-    background-color: #f6f5f5;
+.top-container {
+    background-image: url("../img/city-skyline.jpg");
+    /* background-color: #f6f5f5; */
     padding-top: 100px;
     position: relative;
-    height: 100%;
+    height: 100vh;
 }
 
-.top-cloud{
+.top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
     width: 200px;
 }
 
-.mountain{
-    height: 400px;
-    
+.mountain {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
     width: 200px;
     bottom: 300px;
 }
 
-h1{
+h1 {
     font-size: 3em;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -43,32 +47,32 @@ h1{
     color: #66bfbf;
 }
 
-.subtitle{
+.subtitle {
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
     color: #66bfbf;
     font-weight: normal;
 }
 
-h3{
+h3 {
     color: #048998;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
 }
 
-h2{
+h2 {
     color: #048998;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
     font-size: 2em;
 }
 
-a{
+a {
     color: #1a6161;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-p{
+p {
     margin-bottom: 0;
     /* font-family: 'Playfair Display', serif; */
     /* font-family: 'Pacifico', cursive; */
@@ -76,35 +80,35 @@ p{
     font-weight: bold;
     color: #2f3836;
     line-height: 2;
-    
+
 }
 
-hr{
+hr {
     border: dotted #048998 6px;
     border-bottom: none;
     width: 5%;
     margin: 80px auto 80px auto;
 }
 
-.intro{
+.intro {
     width: 30%;
     margin: 0 auto 40px auto;
 }
 
-.middle-container{
+.middle-container {
     /* background-color: #30e3ca;
     width: 200px;
     height: 200px; */
     background-color: #f6f5f5;
 }
 
-.skill-row{
+.skill-row {
     display: inline-block;
     margin: 50px 10px 0 10px;
 }
 
-.skill-row img{
-    width : 75%;
+.skill-row img {
+    width: 75%;
 }
 
 /* .skill-row h3{
@@ -112,56 +116,57 @@ hr{
      margin : 0 auto 0 auto; 
 } */
 
-.profile-photo{
+.profile-photo {
     height: 200px;
     width: 200px;
     border-radius: 100px;
     margin-top: 100px;
 }
 
-.edu-row{
+.edu-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-    
+
 }
 
-.kuliah-logo{
+.kuliah-logo {
     float: left;
     margin-right: 30px;
 }
 
-.sma-logo{
+.sma-logo {
     float: right;
     margin-left: 30px;
 }
 
-.smp-logo{
+.smp-logo {
     float: left;
     margin-right: 30px;
 }
 
-.sd-logo{
+.sd-logo {
     float: right;
     margin-left: 30px;
 }
 
-.contact-me{
+.contact-me {
     /* background-color: #3bb4c1; */
     /* margin : 50px auto 50px auto; */
 }
 
-.btn{
+.btn {
     border: none;
     border-radius: 5px;
-    text-align:center;
+    text-align: center;
     padding: 15px 15px;
     text-decoration: none;
+    font-weight: bolder;
     display: inline-block;
     background-color: #048998;
     margin: 0px auto 50px auto;
-    color : #e9e4e6;
+    color: #e9e4e6;
     font-family: Arial, Helvetica, sans-serif;
     background: #39c5d4;
     background-image: -webkit-linear-gradient(top, #39c5d4, #207680);
@@ -173,25 +178,25 @@ hr{
     -moz-border-radius: 4;
 }
 
-.bottom-container{
+.bottom-container {
     padding-top: 1%;
     height: 100px;
     background-color: #048998;
 }
 
-.footer-link{
+.footer-link {
     color: #e9e4e6;
     font-family: 'Merriweather', serif;
     text-decoration: none;
     font-size: 1em;
-    margin : 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
 
-.credit{
+.credit {
     color: #e9e4e6;
 }
 
-.contact-desc{
+.contact-desc {
     width: 40%;
     margin: 50px auto 50px auto;
 }
