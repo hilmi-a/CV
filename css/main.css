@@ -4,6 +4,11 @@ body{
     font-family: verdana, sans-serif;
 }
 
+.hidden{
+    display: none;
+}
+
+
 .top-container{
     background-color: #f5f5f5;
     padding-top: 100px;
@@ -19,7 +24,7 @@ body{
 }
 
 .mountain{
-
+    height: 500px;
     
 }
 
@@ -38,13 +43,19 @@ h1{
 
 p{
     margin-bottom: 0;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .mid-container{
     /* background-color: #30e3ca;
     width: 200px;
     height: 200px; */
 
+}
+
+.skill-row{
+    display: inline-block;
 }
 
 .profile-photo{
